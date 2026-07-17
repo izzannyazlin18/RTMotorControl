@@ -1,5 +1,5 @@
 # RTMotorControl
-# DC Motor Velocity Control via myRIO Linux RT
+## DC Motor Velocity Control via myRIO Linux RT
 
 A real-time embedded C application targeting the NI myRIO hardware platform to implement closed-loop velocity control on a DC motor. This project utilizes hardware timer interrupts (IRQ) for precision tracking and a custom cascading biquad filter implementation for control loop processing.
 
