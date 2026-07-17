@@ -14,10 +14,10 @@ A robust, real-time motor control application developed to handle precise motor 
 * **Development Environment:** LabVIEW Real-Time
 
 ## 📂 Repository Structure
-* `main.*` - The primary execution script containing the core control loop and hardware configurations.
+* `main.c` - The primary execution script containing the core control loop and hardware configurations.
 * `README.md` - Documentation and project overview.
 
 ## ⚡ Quick Start
 1. Connect the hardware components according to your circuit diagram.
-2. Open the `main.*` file in your preferred development environment.
+2. Open the `main.c` file in your preferred development environment.
 3. Flash/compile the code onto your hardware platform.
