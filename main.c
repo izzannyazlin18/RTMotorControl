@@ -220,9 +220,9 @@ void* Timer_ISR(void *resource){
 	int err;
 	double ref_vels[2]={*Omega_R,prev_Omega_R};//save data to matlab file
 	MATFILE *mf;
-	mf = openmatfile("Lab7Izzanny.mat", &err);
+	mf = openmatfile("yourname.mat", &err);
 	if(!mf) printf("Can't open mat file %d\n", err);
-	matfile_addstring(mf, "myName", "Izzanny");
+	matfile_addstring(mf, "myName", "yourname");
 	matfile_addmatrix(mf, "Omega_J", Omega_JBUF, IMAX, 1, 0);
 	matfile_addmatrix(mf, "VDAout", VDAoutBUF, IMAX, 1, 0);
 	matfile_addmatrix(mf, "ref_vels", ref_vels, 2, 1, 0);
